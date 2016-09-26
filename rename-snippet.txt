@@ -1,2 +1,2 @@
-for i in *; do mv "$i" "`echo $i | sed 's/megan/participant1/g'`"; done
-sed -i '' 's/megan/participant1/g' *.csv
+for i in *; do mv "$i" "`echo $i | sed 's/name/participant1/g'`"; done
+sed -i '' 's/name/participant1/g' *.csv
